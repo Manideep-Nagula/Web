@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    text-align: center;
+    color:white;
+    font-family: "Roboto Slab",serif;
+    font-size: 36px;
+    font-weight: normal;
+
+}
+
+.page{
+    background-image: linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0, .3)),  url("images/head.jpg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head img{
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.instructor{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    width: fit-content;
+    margin: auto;
+}
+
+.title{
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.date{
+    font-style: italic;
+    line-height: 24px;
+}
+
+hr{
+    width: auto;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #e6e6e6;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.num,.name{
+    font-family: 'Roboto Slab',serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.num{
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.heading{
+    margin-left: 20px;
+    width: 66.67%;
+}
+
+.heading .name{
+    color: rgb(51, 51, 51);
+}
+
+.heading img{
+    margin-top: 20px;
+}
+
+.link,.context,.recom{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.context p{
+    margin-top: 20px;
+}
+
+.recom p{
+    margin-top: 20px;
+}
+
+.link, .page a{
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+.link:hover, .page a:hover{
+    text-decoration: underline;
+}
